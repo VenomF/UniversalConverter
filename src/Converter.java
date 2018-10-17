@@ -2,11 +2,14 @@
 public class Converter {
 	
 	public static double kgToLb(double kg) {
-		return kg;
+	    double lbs = kg * 2.2046;
+		return lbs;
 	}
 	
-	public static double lbToKg(double lb) {
-		return lb;
+	public static double lbToKg(double lbs) {
+	       double kg = lbs / 2.2046;
+
+		return kg;
 	}
 	
 	public static double cmToInch(double cm) {
