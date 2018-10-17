@@ -10,11 +10,12 @@ public class Converter {
 	}
 	
 	public static double cmToInch(double cm) {
-		return cm;
+		
+		return (cm/2.54);
 	}
 	
 	public static double inchToCm(double inch) {
-		return inch;
+		return (inch*2.54);
 	}
 	
 	public static double celsiusToFahrenheit(double c) {
