@@ -21,11 +21,11 @@ public class Converter {
 	}
 	
 	public static double celsiusToFahrenheit(double c) {
-		return c;
+		return c*1.8+32;
 	}
 	
 	public static double fahrenheitToCelsius(double f) {
-		return f;
+		return (f-32)/1.8;
 	}
 	
 	public static void main(String[] args) {
